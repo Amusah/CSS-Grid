@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1000px;
+    height: 900px;
+    border: 2px solid #000;
+
+    /* Grid codes goes here */
+    display: grid;
+    grid-template-columns: 200px 800px;
+    grid-template-rows: 100px 700px 100px;
+}
+
+.box{
+    font-size: 1.5rem;
+}
