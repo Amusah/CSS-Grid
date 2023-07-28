@@ -4,13 +4,13 @@ body{
 
 #container{
     margin: 0 auto;
-    width: 90% ;
+    width: 1000px;
     height: 1000px;
     border: 2px solid #000;
 
     /* Grid codes goes here */
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 500px 1fr;
     grid-template-rows: 1fr 2fr;
 }
 
