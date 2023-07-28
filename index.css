@@ -4,19 +4,19 @@ body{
 
 #container{
     margin: 0 auto;
-    width: 1000px;
-    height: 900px;
+    width: 90% ;
+    height: 1000px;
     border: 2px solid #000;
 
     /* Grid codes goes here */
     display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 500px 500px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 
-p{
+/* p{
     font-size: 2.5em;
-}
+} */
 
 .box{
     font-size: 1.5rem;
