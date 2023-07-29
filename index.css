@@ -10,8 +10,9 @@ body{
 
     /* Grid codes goes here */
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    /* grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr); */
+    grid-template: repeat(5, 1fr) / repeat(2, 1fr);
 }
 
 /* p{
